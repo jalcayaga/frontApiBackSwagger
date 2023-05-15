@@ -1,0 +1,58 @@
+<div class="col-md-9 mb-4 order-1 order-md-1">
+    <h4 class="my-1 text-secondary text-center">Productos</h4>
+    <div class="table-responsive" style="overflow-x: auto;">
+      <table class="table table-transparent table-borderless table-striped table-sm text-center">
+        <thead>
+          <tr class="text-success">
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody class="align-middle text-center">
+          <% productsUser.forEach((producto) => { %>
+            <tr
+              data-id="<%= producto.id %>"
+              data-nombre="<%= producto.nombre %>"
+              data-descripcion="<%= producto.descripcion %>"
+              data-precio="<%= producto.precio %>"
+              data-foto="<%= producto.foto %>"
+            >
+              <td class="text-warning"><%= producto.id %></td>
+              <td><%= producto.nombre %></td>
+              <td><%= producto.descripcion %></td>
+              <td>
+                $<%= Number(producto.precio).toLocaleString('es-CL', {minimumFractionDigits: 0, maximumFractionDigits: 2}) %>
+              </td>
+              <td><img src="<%= producto.image %>" alt="<%= producto.nombre %>" style="max-width: 40px; max-height: 40px;"></td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-warning btn-sm btn-edit-product"
+                  data-id="<%= producto.id %>"
+                >
+                  <i class="bi bi-pencil"></i>
+                </button>
+              </td>
+              <td>
+                <button
+                  form="delete-form-<%= producto.id %>"
+                  type="submit"
+                  class="btn btn-danger btn-sm btn-delete-product"
+                  title="Eliminar"
+                >
+                  <i class="bi bi-trash"></i>
+                </button>
+                </form>
+              </td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

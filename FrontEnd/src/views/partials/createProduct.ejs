@@ -1,0 +1,54 @@
+<div class="col-md-3 mb-4 order-0 order-md-0">
+  <h4 class="my-1 text-secondary text-center">Crear Producto</h4>
+  <form method="POST" enctype="multipart/form-data" id="createProductForm" action="/products">
+<!-- 
+  <form method="POST" action="/products"> -->
+    <input type="hidden" name="usuario_id" value="<%= usuario.id %>">
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre del producto:</label>
+      <input
+        type="text"
+        class="form-control form-control-sm"
+        id="nombre"
+        name="nombre"
+        placeholder="Nombre"
+        required
+      />
+    </div>
+    <div class="mb-3">
+        <label for="descripcion" class="form-label">Descripción:</label>
+        <input
+          type="text"
+          class="form-control form-control-sm"
+          id="descripcion"
+          name="descripcion"
+          placeholder="Descripcion"
+          required
+        />
+      </div>
+    <div class="mb-3">
+      <label for="precio" class="form-label">Precio:</label>
+      <input
+        type="number"
+        class="form-control form-control-sm"
+        id="precio"
+        name="precio"
+        placeholder="0"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="image" class="form-label">Imagen:</label>
+      <input
+        type="file"
+        class="form-control form-control-sm"
+        id="image"
+        name="image"
+       
+      />
+    </div>
+    <button type="submit" class="btn btn-sm w-100 btn-success">
+      Crear producto
+    </button>
+  </form>
+</div>

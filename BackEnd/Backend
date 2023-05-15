@@ -1,0 +1,1580 @@
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (/Users/astro/Desktop/tesis/BackEnd/node_modules/express/lib/application.js:635:24)
+    at file:///Users/astro/Desktop/tesis/BackEnd/src/index.js:52:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}
+Unable to connect to the database: ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED ::1:5432
+    at Client._connectionCallback (/Users/astro/Desktop/tesis/BackEnd/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:131:24)
+    at Client._handleErrorWhileConnecting (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:318:19)
+    at Client._handleErrorEvent (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Socket.reportStreamError (/Users/astro/Desktop/tesis/BackEnd/node_modules/pg/lib/connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  parent: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  },
+  original: Error: connect ECONNREFUSED ::1:5432
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 5432
+  }
+}

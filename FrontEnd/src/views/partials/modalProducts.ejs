@@ -1,0 +1,121 @@
+<div
+  class="modal fade"
+  id="editStudentModal"
+  tabindex="-1"
+  aria-labelledby="editStudentModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h5 class="modal-title bg-dark text-warning" id="editStudentModalLabel">
+          Editar producto
+        </h5>
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form id="editForm" action="/products/update/:id" method="post">
+          <!-- campo de entrada oculto con el id del producto que se está editando -->
+          <input type="hidden" id="editId" name="id" />
+          <div class="mb-3">
+            <label for="editName" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="editName"
+              name="nombre"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="editDescripcion" class="form-label">Descripcion</label>
+            <input
+              type="text"
+              class="form-control"
+              id="editDescripcion"
+              name="descripcion"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="editPrecio" class="form-label">Precio</label>
+            <input
+              type="text"
+              class="form-control"
+              id="editPrecio"
+              name="precio"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="editImage" class="form-label">Imagen</label>
+            <input
+              type="file"
+              class="form-control"
+              id="editImage"
+              name="image"
+              required
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cancelar
+            </button>
+            <button type="submit" class="btn btn-warning">
+              Guardar cambios
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal de confirmación de eliminación -->
+
+<div
+  class="modal fade"
+  id="confirm-delete-modal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="confirm-delete-modal-title"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content bg-dark">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-warning" id="confirm-delete-modal-title">
+          ¿Está seguro que desea eliminar este producto?
+        </h5>
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="modal"
+          aria-label="Cerrar"
+        ></button>
+      </div>
+      <div class="modal-footer border-0">
+        <form
+          id="delete-form"
+          action="/products/delete/<%= usuario.id %>"
+          method="POST"
+        >
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Cancelar
+          </button>
+          <button type="submit" class="btn btn-danger">Eliminar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

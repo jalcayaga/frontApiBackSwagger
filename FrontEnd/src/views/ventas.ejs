@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dashboard Admin</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
+    <!-- Choices.js-->
+    <link
+      rel="stylesheet"
+      href="vendor/choices.js/public/assets/styles/choices.min.css"
+    />
+    <!-- Google fonts - Muli-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Muli:300,400,700"
+    />
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.green.css" id="theme-stylesheet" />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- --------------------------- icons bootstrap --------------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- -------------------------- cdn de charts.js --------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- ------------------------------- favicon ------------------------------- -->
+    <link rel="shortcut icon" href="img/favicon.png" />
+  </head>
+  <body>
+    <header class="header">
+      <nav
+        class="navbar navbar-expand-lg py-3 bg-dash-dark-2 border-bottom border-dash-dark-1 z-index-10"
+      >
+        <div class="search-panel">
+          <div
+            class="search-inner d-flex align-items-center justify-content-center"
+          >
+            <div
+              class="close-btn d-flex align-items-center position-absolute top-0 end-0 me-4 mt-2 cursor-pointer"
+            >
+              <span>Close </span>
+              <svg
+                class="svg-icon svg-icon-md svg-icon-heavy text-gray-700 mt-1"
+              >
+                <use xlink:href="#close-1"></use>
+              </svg>
+            </div>
+            <div class="row w-100">
+              <div class="col-lg-8 mx-auto">
+                <form class="px-4" id="searchForm" action="#">
+                  <div
+                    class="input-group position-relative flex-column flex-lg-row flex-nowrap"
+                  >
+                    <input
+                      class="form-control shadow-0 bg-none px-0 w-100"
+                      type="search"
+                      name="search"
+                      placeholder="What are you searching for..."
+                    />
+                    <button
+                      class="btn btn-link text-gray-600 px-0 text-decoration-none fw-bold cursor-pointer text-center"
+                      type="submit"
+                    >
+                      Search
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container-fluid d-flex align-items-center justify-content-between py-1"
+        >
+          <div class="navbar-header d-flex align-items-center">
+            <a class="navbar-brand text-uppercase text-reset" href="/">
+              <div class="brand-text brand-big">
+                <strong class="text-primary">SubRed</strong
+                ><strong>Admin</strong>
+              </div>
+              <div class="brand-text brand-sm">
+                <strong class="text-primary">S</strong><strong>A</strong>
+              </div></a
+            >
+            <button class="sidebar-toggle">
+              <svg class="svg-icon svg-icon-sm svg-icon-heavy transform-none">
+                <use xlink:href="#arrow-left-1"></use>
+              </svg>
+            </button>
+          </div>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a class="search-open nav-link px-0" href="#">
+                <svg class="svg-icon svg-icon-xs svg-icon-heavy text-gray-700">
+                  <use xlink:href="#find-1"></use></svg
+              ></a>
+            </li>
+            <!-- Messages dropdown -->
+            <li class="list-inline-item dropdown px-lg-2">
+              <a
+                class="nav-link text-reset px-1 px-lg-0"
+                id="navbarDropdownMenuLink1"
+                href="#"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <svg class="svg-icon svg-icon-xs svg-icon-heavy">
+                  <use xlink:href="#envelope-1"></use></svg
+                ><span class="badge bg-dash-color-1">5</span></a
+              >
+              <ul
+                class="dropdown-menu dropdown-menu-end dropdown-menu-dark"
+                aria-labelledby="navbarDropdownMenuLink1"
+              >
+                <li>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                    <div class="position-relative">
+                      <img
+                        class="avatar avatar-md"
+                        src="img/avatar-3.jpg"
+                        alt="Nadia Halsey"
+                      />
+                      <div class="availability-status bg-success"></div>
+                    </div>
+                    <div class="ms-3">
+                      <strong class="d-block">Nadia Halsey</strong
+                      ><span class="d-block text-xs"
+                        >lorem ipsum dolor sit amit</span
+                      ><small class="d-block">9:30am</small>
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                    <div class="position-relative">
+                      <img
+                        class="avatar avatar-md"
+                        src="img/avatar-2.jpg"
+                        alt="Peter Ramsy"
+                      />
+                      <div class="availability-status bg-warning"></div>
+                    </div>
+                    <div class="ms-3">
+                      <strong class="d-block">Nadia Halsey</strong
+                      ><span class="d-block text-xs"
+                        >lorem ipsum dolor sit amit</span
+                      ><small class="d-block">9:30am</small>
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                    <div class="position-relative">
+                      <img
+                        class="avatar avatar-md"
+                        src="img/avatar-1.jpg"
+                        alt="Sam Kaheil"
+                      />
+                      <div class="availability-status bg-danger"></div>
+                    </div>
+                    <div class="ms-3">
+                      <strong class="d-block">Nadia Halsey</strong
+                      ><span class="d-block text-xs"
+                        >lorem ipsum dolor sit amit</span
+                      ><small class="d-block">9:30am</small>
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                    <div class="position-relative">
+                      <img
+                        class="avatar avatar-md"
+                        src="img/avatar-5.jpg"
+                        alt="Sara Wood"
+                      />
+                      <div class="availability-status bg-secondary"></div>
+                    </div>
+                    <div class="ms-3">
+                      <strong class="d-block">Nadia Halsey</strong
+                      ><span class="d-block text-xs"
+                        >lorem ipsum dolor sit amit</span
+                      ><small class="d-block">9:30am</small>
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-center message" href="#">
+                    <strong
+                      >See All Messages
+                      <i class="fas fa-angle-right ms-1"></i></strong
+                  ></a>
+                </li>
+              </ul>
+            </li>
+            <!-- Tasks dropdown                   -->
+            <li class="list-inline-item dropdown px-lg-2">
+              <a
+                class="nav-link text-reset px-1 px-lg-0"
+                id="navbarDropdownMenuLink2"
+                href="#"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <svg class="svg-icon svg-icon-xs svg-icon-heavy">
+                  <use xlink:href="#paper-stack-1"></use></svg
+                ><span class="badge bg-dash-color-3">9</span></a
+              >
+              <ul
+                class="dropdown-menu dropdown-menu-end dropdown-menu-dark"
+                aria-labelledby="navbarDropdownMenuLink2"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex justify-content-between mb-1">
+                      <strong>Task 1</strong><span>40% complete</span>
+                    </div>
+                    <div class="progress" style="height: 2px">
+                      <div
+                        class="progress-bar bg-dash-color-1"
+                        role="progressbar"
+                        style="width: 40%"
+                        aria-valuenow="40"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div></div
+                  ></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex justify-content-between mb-1">
+                      <strong>Task 2</strong><span>20% complete</span>
+                    </div>
+                    <div class="progress" style="height: 2px">
+                      <div
+                        class="progress-bar bg-dash-color-2"
+                        role="progressbar"
+                        style="width: 20%"
+                        aria-valuenow="20"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div></div
+                  ></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex justify-content-between mb-1">
+                      <strong>Task 3</strong><span>70% complete</span>
+                    </div>
+                    <div class="progress" style="height: 2px">
+                      <div
+                        class="progress-bar bg-dash-color-3"
+                        role="progressbar"
+                        style="width: 70%"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div></div
+                  ></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex justify-content-between mb-1">
+                      <strong>Task 4</strong><span>40% complete</span>
+                    </div>
+                    <div class="progress" style="height: 2px">
+                      <div
+                        class="progress-bar bg-dash-color-4"
+                        role="progressbar"
+                        style="width: 40%"
+                        aria-valuenow="40"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div></div
+                  ></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex justify-content-between mb-1">
+                      <strong>Task 5</strong><span>30% complete</span>
+                    </div>
+                    <div class="progress" style="height: 2px">
+                      <div
+                        class="progress-bar bg-dash-color-1"
+                        role="progressbar"
+                        style="width: 30%"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div></div
+                  ></a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-center" href="#">
+                    <strong
+                      >See All Tasks
+                      <i class="fas fa-angle-right ms-1"></i></strong
+                  ></a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Languages dropdown    -->
+            <li class="list-inline-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-sm text-reset px-1 px-lg-0"
+                id="languages"
+                rel="nofollow"
+                data-bs-target="#"
+                href="#"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                ><img src="img/flags/16/CL.png" alt="Español" /><span
+                  class="d-none d-sm-inline-block ms-2"
+                  >Español</span
+                ></a
+              >
+              <ul
+                class="dropdown-menu dropdown-menu-end mt-sm-3 dropdown-menu-dark"
+                aria-labelledby="languages"
+              >
+                <li>
+                  <a class="dropdown-item" rel="nofollow" href="#">
+                    <img
+                      class="me-2"
+                      src="img/flags/16/GB.png"
+                      alt="English"
+                    /><span>English</span></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="list-inline-item logout px-lg-2">
+              <a
+                class="nav-link text-sm text-reset px-1 px-lg-0"
+                id="logout"
+                href="logout"
+              >
+                <span class="d-none d-sm-inline-block">Logout </span>
+                <svg class="svg-icon svg-icon-xs svg-icon-heavy">
+                  <use xlink:href="#disable-1"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="d-flex align-items-stretch">
+      <!-- Sidebar Navigation-->
+      <nav id="sidebar">
+        <!-- Sidebar Header-->
+        <div class="sidebar-header d-flex align-items-center p-4">
+          <img
+            class="avatar shadow-0 img-fluid rounded-circle"
+            src="img/avatar-6.jpg"
+            alt="..."
+          />
+          <div class="ms-3 title">
+            <h1 class="h5 mb-1"><%= usuario.nombre %></h1>
+            <p class="text-sm text-gray-700 mb-0 lh-1">User</p>
+          </div>
+        </div>
+       
+        <ul class="list-unstyled">
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="dashboard">
+              <svg class="svg-icon svg-icon-sm svg-icon-heavy">
+                <use xlink:href="#real-estate-1"></use></svg
+              ><span>Dashboard </span></a
+            >
+          </li>
+
+          <li class="sidebar-item active">
+            <a class="sidebar-link" href="ventas">
+              <svg class="svg-icon svg-icon-sm svg-icon-heavy">
+                <use xlink:href="#portfolio-grid-1"></use></svg
+              ><span>Ventas </span></a
+            >
+          </li>
+
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="clientes">
+              <svg class="svg-icon svg-icon-sm svg-icon-heavy">
+                <use xlink:href="#portfolio-grid-1"></use></svg
+              ><span>Clientes </span></a
+            >
+          </li>
+         
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="products">
+              <svg class="svg-icon svg-icon-sm svg-icon-heavy">
+                <use xlink:href="#survey-1"></use></svg
+              ><span>Productos </span></a
+            >
+          </li>
+
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="informes">
+              <svg class="svg-icon svg-icon-sm svg-icon-heavy">
+                <use xlink:href="#sales-up-1"></use></svg
+              ><span>Informes </span></a
+            >
+          </li>
+
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="ayuda">
+              <svg class="svg-icon svg-icon-sm svg-icon-heavy">
+                <use xlink:href="#sales-up-1"></use></svg
+              ><span>Ayuda </span></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="page-content">
+      
+        <section class="pt-0">
+          <div class="container-fluid">
+            
+            <form id="form_crear" class="validateDontSubmitFactura" name="form1" ondragstart="return false;" ondrop="return false;">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-xs-12 ">
+                          <ol class="breadcrumb hidden-xs">
+                                  <li><a href="/Ventas">Ventas</a></li>
+                                  <li id="breadcrumbCotizaciones"><a href="/Ventas?breadcrumb=Cotizacion">Cotizaciones</a></li>
+                                  <li id="breadcrumbVenta"><a href="/Ventas?breadcrumb=Ventas" class="active">Registro de Ventas</a></li>
+                                  <li id="breadcrumbGuia"><a href="/Ventas?breadcrumb=Guia">Guías de Despacho</a></li>
+                                  <li id="breadcrumbBoleta"><a href="/Ventas?breadcrumb=Boleta">Registro de Boletas</a></li>
+                                  <li class="active">Nuevo documento</li>
+          
+                          </ol>
+                      </div>
+                  </div>
+                  <div class="wrap-cuerpo wrap-config">
+                      <div class="tabbable factura">
+                          <fieldset id="fieldsetVenta">
+                              <div class="row" id="foliosDisponibles" style="display: none">
+                                  <div class="alert-warning padding-lr padding-tb">
+                                      <p> Te quedan <b><span></span></b> folios para ser utilizados en <b><span></span></b>, si deseas evitar inconvenientes importa nuevos folios <a href="/Configuracion/Index/caf">aquí</a>. </p>
+                                  </div>
+                              </div>
+                              <!--ROW-->
+                              <div class="row form-horizontal">
+                                  <!--Input factura-->
+                                      <div class="col-sm-4 col-md-4 col-lg-4">
+                                          <div class="col-sm-8 col-md-8 col-lg-8">
+                                              <label class="control-label">Documento</label>
+                                              <select class="form-control" id="IdTipoDocumentoSii">
+                                                          <option value="30" selected="selected">30 - Factura</option>
+                                                          <option value="32">32 - Factura Exenta</option>
+                                                          <option value="33">33 - Factura Electr&#243;nica</option>
+                                                          <option value="34">34 - Factura No Afecta o Exenta Electr&#243;nica</option>
+                                                          <option value="55" disabled="disabled">55 - Nota de D&#233;bito</option>
+                                                          <option value="56" disabled="disabled">56 - Nota de D&#233;bito Electr&#243;nica</option>
+                                                          <option value="60" disabled="disabled">60 - Nota de Cr&#233;dito</option>
+                                                          <option value="61" disabled="disabled">61 - Nota de Cr&#233;dito Electr&#243;nica</option>
+                                              </select>
+                                          </div>
+                                      </div>
+                                  <!--Input número-->
+                                      <div class="col-sm-2 col-md-2 col-lg-2">
+                                          <label id="divFolioLabel" class="control-label">Folio</label>
+                                          <div class="row">
+                                              <div class="col-sm-12" id="divFolio">
+                                                  <div class="row">
+                                                      <div class="col-sm-9 col-lg-8">
+                                                              <input type="text" class="form-control input-clean" id="Folio" placeholder="Folio" maxlength="12" required />
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  
+                                                              <div class="col-sm-2 col-md-2 col-lg-2 pull-right">
+                                              <div>
+                  <label class="control-label">Condición de pago <span id="gestion-cuota-tooltip" data-toggle="tooltip" data-placement="top" title="Puedes personalizar las condiciones de pago de tus documentos en la cantidad de cuotas que quieras una vez que lo emitas"><i class="fa fa-info-circle"></i></span></label>
+                  <select class="form-control" id="OpcionPagoSelect" name="CondicionPago"><option value="CONTADO">CONTADO</option>
+          <option value="CREDITO30">CREDITO 30 DIAS</option>
+          <option value="CREDITO60">CREDITO 30/60 DIAS</option>
+          <option value="CREDITO90">CREDITO 30/60/90 DIAS</option>
+          </select>
+              </div>
+          
+                                      </div>
+          
+                                  <!--Input fecha-->
+                                  <div class="col-sm-2 col-md-2 col-lg-2 pull-right">
+                                      <label class="control-label">Fecha vencimiento</label>
+                                      <div class="input-group date" id="datetimepicker2">
+                                              <input type="text" class="form-control" value="28-05-2023" id="fechaVencimiento" required />
+                                          <span class="input-group-btn">
+                                              <button class="btn btn-default" type="button"><i class="fa fa-calendar-o"></i></button>
+                                          </span>
+                                      </div>
+                                  </div>
+          
+                                  <div class="col-sm-2 col-md-2 col-lg-2 pull-right">
+                                      <label class="control-label">Fecha</label>
+                                      <div class="input-group date" id="datetimepicker1">
+                                              <input type="text" class="form-control" value="29-04-2023" id="FechaFactura" required />
+                                          <span class="input-group-btn">
+                                              <button class="btn btn-default" type="button"><i class="fa fa-calendar-o"></i></button>
+                                          </span>
+                                      </div>
+                                  </div>
+                              </div>
+          
+          
+                              <div id="contenedorContribuyente" class="row row-fluid">
+          
+                                  <div class="row form-horizontal">
+                                      <!--Input contribuyente-->
+                                      <div class="row row-simple">
+                                          <div class="col-sm-5 col-md-6 col-lg-4">
+                                              <label class="control-label col-sm-4 col-md-3 col-lg-3">Contribuyente</label>
+                                              <div class="col-sm-12 col-md-9 col-lg-9">
+                                                  <select id="ContribuyenteSeleccionado" class="form-control">
+                                                          <option> </option>
+                                                  </select>
+                                              </div>
+                                          </div>
+                                          <!--Input dirección-->
+                                          <div class="col-sm-5 col-md-5 col-lg-4">
+                                              <label id="selectDireccion" class="col-sm-5 col-md-3 col-lg-3 control-label">Dirección</label>
+                                              <div class="col-sm-12 col-md-9 col-lg-9">
+                                                      <select id="direccionesCompraVenta" class="form-control">
+                                                              <option value="0">Dirección 1</option>
+                                                              <option value="1">Dirección 2</option>
+                                                              <option value="2">Dirección 3</option>
+                                                              <option value="3">Dirección 4</option>
+                                                      </select>
+                                              </div>
+                                          </div>
+                                          <!--Input contacto-->
+                                          <div class="col-sm-5 col-md-5 col-lg-3">
+                                              <label id="selectContacto" class="col-sm-5 col-md-3 col-lg-3 control-label">Contacto</label>
+                                              <div class="col-sm-12 col-md-9 col-lg-9">
+                                                      <select id="contactosCompraVenta" class="form-control" disabled>
+                                                              <option value="0">Contacto 1</option>
+                                                              <option value="1">Contacto 2</option>
+                                                              <option value="2">Contacto 3</option>
+                                                              <option value="3">Contacto 4</option>
+                                                      </select>
+                                              </div>
+                                          </div>
+                                          <!--boton más opciones-->
+                                          <div class="col-sm-2 col-md-1 col-lg-1 pull-right text-center btndesplegable">
+                                              <button type="button" class="btn btn-opcion btndesplegable" id="btndesplegable" title="Más opciones" data-toggle="collapse" href="#datosContribuyente" aria-expanded="false" aria-controls="collapseExample">
+                                                  <i class="fa fa-chevron-down btndesplegable"></i>
+                                              </button>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!--COLAPSAR CALUGA-->
+                                  <div class="collapse" id="datosContribuyente" aria-expanded="true">
+                                      <div class="row form-horizontal back-gris">
+                                          <!--area izquierda-->
+                                          <div class="form-horizontal col-sm-6 col-md-6 col-lg-4">
+                                              <div class="form-group">
+                                                  <label class="col-sm-4 col-md-2 col-lg-2 control-label">Rut</label>
+                                                  <div class="col-sm-8 col-md-10 col-lg-10">
+                                                          <label type="text" id="RutContribuyente" class="form-control input-clean label-disabled"></label>
+                                                  </div>
+                                              </div>
+                                              <div class="form-group">
+                                                  <label class="col-sm-4 col-md-2 col-lg-2 control-label">Nombre</label>
+                                                  <div class="col-sm-8 col-md-10 col-lg-10">
+                                                          <label type="text" id="NombreContribuyente" class="form-control input-clean label-disabled"></label>
+                                                  </div>
+                                              </div>
+                                              <div id="divGiro" class="form-group">
+                                                  <label id="labelGiro" class="col-sm-4 col-md-2 col-lg-2 control-label">Giro</label>
+                                                  <div class="col-sm-8 col-md-10 col-lg-10">
+                                                          <label type="text" class="form-control input-clean label-disabled" id="GiroContribuyente"></label>
+                                                  </div>
+                                              </div>
+                                              <div class="form-group">
+                                                  <label id="labelWebSite" class="col-sm-4 col-md-2 col-lg-2 control-label">Sitio Web</label>
+                                                  <div class="col-sm-8 col-md-10 col-lg-10">
+                                                          <label type="text" class="form-control input-clean label-disabled" id="WebSiteContribuyente"></label>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <!--area derecha-->
+          
+                                          <div class="form-horizontal col-sm-6 col-md-6 col-lg-8">
+                                              <div class="form-group">
+                                                  <label id="labelDireccion" class="col-sm-4 col-md-2 col-lg-2 control-label">Dirección</label>
+                                                  <div class="col-sm-8 col-md-10 col-lg-10">
+                                                          <label type="text" class="form-control input-clean label-disabled" id="DireccionContribuyente"></label>
+                                                  </div>
+                                              </div>
+                                              <div class="row">
+                                                  <div class="col-sm-6">
+                                                      <div class="form-group">
+                                                          <label id="labelPais" class="col-sm-4 col-md-2 col-lg-2 control-label">País</label>
+                                                          <div class="col-sm-8 col-md-10 col-lg-10">
+                                                                  <label type="text" class="form-control input-clean label-disabled" id="PaisContribuyente"></label>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-sm-6">
+                                                      <div class="form-group">
+                                                          <label id="labelCiudad" class="col-sm-4 col-md-2 col-lg-2 control-label">Ciudad</label>
+                                                          <div class="col-sm-8 col-md-10 col-lg-10">
+                                                                  <label class="form-control input-clean label-disabled inputOverflow" id="CiudadAntigua"></label>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="row">
+                                                  <div class="col-sm-6">
+                                                      <div class="form-group">
+                                                          <label id="labelRegion" class="col-sm-4 col-md-2 col-lg-2 control-label">Región</label>
+                                                          <div class="col-sm-8 col-md-10 col-lg-10">
+                                                                  <label class="form-control input-clean label-disabled inputOverflow" id="RegionAntigua"></label>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-sm-6">
+                                                      <div class="form-group">
+                                                          <label id="labelComuna" class="col-sm-4 col-md-2 col-lg-2 control-label">Comuna</label>
+                                                          <div class="col-sm-8 col-md-10 col-lg-10">
+                                                                  <label class="form-control input-clean label-disabled inputOverflow" id="ComunaAntigua"></label>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="row">
+                                                  <div class="col-sm-6">
+                                                      <div class="form-group">
+                                                          <label class="col-sm-4 col-md-2 col-lg-2 control-label">Correo</label>
+                                                          <div class="col-sm-8 col-md-10 col-lg-10">
+                                                                  <label type="text" class="form-control input-clean label-disabled inputOverflow" id="CorreoContribuyente"></label>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-sm-6">
+                                                      <div class="form-group">
+                                                          <label id="labelTelefono" class="col-sm-4 col-md-2 col-lg-2 control-label">Teléfono</label>
+                                                          <div class="col-sm-8 col-md-10 col-lg-10">
+                                                                  <label type="text" class="form-control input-clean label-disabled inputOverflow" id="TelefonoContribuyente"></label>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div id="divGlosa" class="col-sm-6" style="display: none">
+                                              <label class="col-sm-12 control-label">Glosa de Referencia</label>
+                                              <textarea id="glosa" maxlength="4000" class="form-control textarea-no-resize width-completo" data-limit-rows="true" rows="5"></textarea>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                                              <!--TABLA-->
+                                  <div id="divDetalleVenta" class="row form-horizontal table-responsive">
+                                      <div hidden="hidden">
+                                          <select class="impuestoAdd form-control impuesto" multiple="multiple" id="impuestoDetalle">
+                                                  <option value="IVA" tipoimpuesto-attr="PorcentajeFijo" porcentaje-attr="19">IVA</option>
+                                          </select>
+                                      </div>
+                                          <table id="tableDetalle" class="table table-bordered table-losproductos tab-ingreso-factura">
+                                              <thead>
+                                                  <tr>
+                                                      <th>Producto</th>
+                                                      <th>Descripción</th>
+                                                      <th>Cantidad</th>
+                                                      <th>Precio</th>
+                                                      
+                                                      <th>Valor</th>
+                                                      <th></th>
+                                                  </tr>
+                                              </thead>
+                                              <tbody>
+                                              </tbody>
+                                          </table>
+                                          <div class="col-sm-12 col-md-12 col-lg-12">
+                                              <button type="button" class="btn btn-opcion" title="Agregar Linea" id="AgregarLinea"><i class="fa fa-plus"></i> Agregar Línea</button>
+                                          </div>
+                                          <div class="col-sm-12 col-md-12 col-lg-12 margin-top">
+                                              <button type="button" class="btn btn-primary" id="btnAgregaDocAsociados"><i class="fa fa-exchange"></i> Documentos Asociados</button>
+                                              <button type="button" class="btn btn-primary campoOculto" id="patenteVentas"><i class="fa fa-truck"></i> Información de transporte</button>
+                                          </div>
+                                          <div class="col-sm-12 col-md-12 col-lg-12 margin-top">
+                                              <div id="informacionTransporte" class="infoTransporte tab-resultados col-sm-5 col-md-5 col-lg-3">
+                                                  <div class="text-center">
+                                                      <b>Información Transporte</b>
+                                                  </div>
+                                                  <div class="form-inline margin-top-half">
+                                                      <label>Patente:</label>
+                                                          <input id="patenteInput" class="form-control" placeholder="XX YY 99" maxlength="8" />
+          
+                                                  </div>
+                                              </div>
+                                          </div>
+                                  </div>
+                              <div class="row">
+                                  <div class="col-sm-4 col-sm-offset-5">
+                                  </div>
+                                  <div class="col-sm-3 ">
+                                          <div id="divTotal" class="cont-tabla">
+                                              <div class="tab-resultados">
+                                                  <table class="table">
+                                                      <tbody>
+                                                              <tr>
+                                                                  <td colspan="2"><a id="addrecDes"><i id="iDesRec" class="color-green-one fa fa-plus-circle cursor-pointer"></i><span id="spanDesRec" style="cursor: pointer" class="nowrap text-sm"> Agregar Recargo o Descuento</span></a></td>
+                                                              </tr>
+                                                          <tr class="collapse row-total-recDes text-right" aria-expanded="true">
+                                                              <td colspan="2">
+                                                                  <div class="col-xs-12 reset-padding-left-right ">
+                                                                      <div class="col-xs-8 text-left reset-padding-left-right" scope="row">
+                                                                          <strong>Sub-Total:</strong>
+                                                                      </div>
+                                                                      <div class="col-xs-4 text-right reset-padding-left-right">
+                                                                          <span id="spanSubTotal">$ 0</span>
+                                                                      </div>
+                                                                  </div>
+                                                                  <div class="col-xs-12 reset-padding-left-right margin-top-half">
+                                                                      <div class="col-xs-6 col-sm-5 reset-padding-left-right">
+                                                                          <select id="tipoResDes" class="form-control">
+                                                                              <option value="1">Descuento %</option>
+                                                                              <option value="2">Recargo %</option>
+                                                                              <option value="3">Descuento Monto</option>
+                                                                              <option value="4">Recargo Monto</option>
+                                                                          </select>
+                                                                      </div>
+                                                                      <div class="col-xs-4 col-sm-3 col-xs-offset-1 col-sm-offset-4 reset-padding-left-right">
+                                                                              <input class="form-control text-right" id="resDesPorc" maxlength="3" onpaste="return false" />
+                                                                      </div>
+                                                                  </div>
+                                                                  <div class="col-xs-12 reset-padding-left-right margin-top-half">
+                                                                      <div class="col-xs-8 text-left nombreRecDes reset-padding-left-right margin-descuento">
+                                                                          <strong>Descuento:</strong>
+                                                                      </div>
+                                                                      <div class="col-xs-4 text-right reset-padding-left-right">
+                                                                          <span id="spanResDesPorc">$ 0</span>
+                                                                              <input id="resDesMonto" class="form-control text-right" value=0 />
+                                                                      </div>
+                                                                  </div>
+          
+                                                              </td>
+                                                          </tr>
+                                                          <tr class="text-right" id="row-total-afecto">
+                                                              <th scope="row">Afecto:</th>
+                                                              <td>
+                                                                      <span id="afecto">$ 0</span>
+                                                              </td>
+                                                          </tr>
+                                                          <tr class="text-right">
+                                                              <th scope="row">Exento:</th>
+                                                              <td>
+                                                                      <span id="exento">$ 0</span>
+                                                              </td>
+                                                          </tr>
+                                                          <tr class="text-right" id="row-total-impuesto">
+                                                              <th scope="row">
+                                                                  <span id="text-impuesto"
+                                                                        tipoimpuesto-attr="PorcentajeFijo"
+                                                                        porcentaje-attr="19"
+                                                                        nombre-attr="IVA"
+                                                                        idimpuesto-attr="IVA">IVA (19%)</span>
+                                                                  </th>
+                                                                  <td class="text-right">
+                                                                          <span id="impuesto">$ 0</span>
+                                                                  </td>
+                                                              </tr>
+          
+          
+          
+                                                          </tbody>
+                                                      </table>
+                                                  </div>
+                                                  <table class="table tab-total">
+                                                      <tbody>
+                                                          <tr class="text-right">
+                                                              <th scope="row">Total</th>
+                                                              <td>
+                                                                      <span id="total">$ 0</span>
+                                                              </td>
+                                                          </tr>
+                                                      </tbody>
+                                                  </table>
+                                              </div>
+                                  </div>
+                                  <div class="row col-sm-12 text-center">
+                                      <a class="btn btn-primary btn-md margin-right ladda-button" data-style="expand-left" id="VistaPrevia" data-toggle="tooltip" data-delay='{"show":"500", "hide":"0"}' title="Previsualiza el documento antes de Guardarlo o Facturarlo." href="#">
+                                          <span class="ladda-label"><i class="fa fa-search"></i> Vista Previa</span>
+                                      </a>
+                                      <button type="submit" class="btn btn-success btn-md ladda-button" data-style="expand-left" id="GuardarVenta" data-toggle="tooltip" data-delay='{"show":"500", "hide":"0"}' title="Factura un documento envi&#225;ndolo al SII en caso de ser electr&#243;nico.">
+                                              <span class="ladda-label"><i class="fa fa-floppy-o"></i> Facturar</span>
+                                      </button>
+                                  </div>
+                              </div>
+                          </fieldset>
+          
+                      </div>
+                  </div>
+              </div>
+              <div id="divretorno"></div>
+          </form>
+          <div class="modal fade" data-backdrop="static" role="dialog" aria-labelledby="gridSystemModalLabel" aria-hidden="true" id="modalContribuyente" hidden="hidden">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="modal-header cabeza-modal">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                          <h4 class="modal-title" id="tituloModalContribuyente">Agregar Contribuyente</h4>
+                      </div>
+                      <div class="modal-body" id="divContribuyente">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="modal fade" style="display: none" data-backdrop="static" role="dialog" aria-labelledby="gridSystemModalLabel" aria-hidden="true" id="modalProducto">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="modal-header cabeza-modal">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                          <h4 class="modal-title" id="tituloModalProducto">Agregar Nuevo Producto</h4>
+                      </div>
+                      <div class="modal-body" id="divProducto">
+                          
+          <script src="/Scripts/Producto/Crear.js"></script>
+          <form id="formProducto" class="validateDontSubmitProducto" name="formProducto">
+              <!--Formulario creacion Producto.-->
+              <div class="row">
+                  <div id="divActivo" class="form-group">
+                      <label> </label>
+                      <div class="checkbox">
+                          <label>
+          
+                              <input type="checkbox" id="Activar" checked /> Activo
+                          </label>
+                      </div>
+                      
+                  </div>
+          
+                  <div class="col-lg-12">
+                      <h3 id="nombreTitulo"></h3>
+                      <input id="idProducto" type="hidden" />
+                      <input id="tipoProductoOld" type="hidden" />
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-6">
+                      <div class="form-group required">
+                          <label class="control-label">Nombre</label>
+                              <input type="text" class="form-control" id="nombreProducto" maxlength="100" required placeholder="Ej: Lápiz Grafito N°2" autofocus />
+                      </div>
+                      <div class="form-group">
+                          <label>Descripción</label>
+                          <i class="fa fa-question-circle" data-toggle="tooltip" data-original-title="La descripci&#243;n detallada del producto aparece al centro de una Factura o Documento."></i>
+                          <textarea class="form-control textarea-no-resize" id="descripcion" placeholder="Ej: Lápiz Grafito N°2 HB 1205 Triangular" maxlength="210" rows="3"></textarea>
+                      </div>
+                      <div>
+                          <label>Código</label>
+                          <i class="fa fa-question-circle" data-toggle="tooltip" data-original-title="Si tienes algo que identifique al producto, debes ingresarlo ac&#225;."></i>
+                          <input type="text" class="form-control" id="codigo" placeholder="Ej: 9827346672342" maxlength="20" />
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                      <div class="form-group required">
+                          <label class="control-label">Tipo</label>
+                          <div class="row">
+                              <div class="col-xs-2" data-toggle="tooltip" data-original-title="Se puede inventariar y habitualmente se vende con impuestos. ">
+                                  <label class="radio-inline">
+                                      <input type="radio" name="Tipo" id="tipoArticulo" value="Articulo" 
+                                             >
+                                      <label>Artículo</label>
+                                  </label>
+                              </div>
+                              <div class="col-xs-2" data-toggle="tooltip" data-original-title="No se puede inventariar y habitualmente se vende sin impuestos. ">
+                                  <label class="radio-inline">
+                                      <input type="radio" name="Tipo" id="tipoServicio" value="Servicio" 
+                                             >
+                                      <label>Servicio</label>
+                                  </label>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <label>Unidad</label>
+                          <select id="unidadArticulo" class="form-control" >
+                                          <option value="cm">cm - cent&#237;metro</option>
+                                          <option value="cm2">cm2 - cent&#237;metro cuadrado</option>
+                                          <option value="cc">cc - cent&#237;metro c&#250;bico</option>
+                                          <option value="g">g - gramo</option>
+                                          <option value="kg">kg - kilogramo</option>
+                                          <option value="l">l - litro</option>
+                                          <option value="m">m - metro</option>
+                                          <option value="m2">m2 - metro cuadrado</option>
+                                          <option value="m3">m3 - metro c&#250;bico</option>
+                                          <option value="mg">mg - mil&#237;gramo</option>
+                                          <option value="ml">ml - mililitro</option>
+                                          <option value="mm">mm - mil&#237;metro</option>
+                                          <option value="t">t - tonelada</option>
+                                          <option value="Un" selected>Un - Unidad</option>
+                          </select>
+                          <select id="unidadServicio" class="form-control" >
+                                          <option value="HH">HH - Horas Hombre</option>
+                                          <option value="Hrs">Hrs - Horas</option>
+                                          <option value="Un" selected>Un - Unidad</option>
+                          </select>
+          
+                      </div>
+                      <div class="form-group">
+                          <label>Precio de Venta</label>
+                          <i class="fa fa-question-circle" data-toggle="tooltip" data-original-title="Precio al que vendes el producto sin impuestos."></i>
+                          <div class="input-group">
+                              <span class="input-group-addon">$</span>
+                              <input type="text" id="precioVenta" placeholder="1.990" maxlength="19" class="form-control precio" value="0">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <p></p>
+              </div>
+              <div class="row text-center">
+                  <div class="col-xs-6">
+                      <button type="submit" value="guardarProducto" id="guardarProducto" class="btn btn-primary pull-right"><i class="fa fa-check"></i> Guardar</button>
+                  </div>
+                  <div class="col-xs-6">
+                      <a id="hrefProdCancelar" href="/Ventas" class="btn btn-default pull-left" data-toggle="tooltip" data-delay='{"show":"500", "hide":"0"}' title="Cancela la creaci&#243;n y vuelve al listado."><i class="fa fa-times"></i> Cancelar</a>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-6">
+                      <p>
+                      </p>
+                  </div>
+              </div>
+          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="modal fade" data-backdrop="static" role="dialog" aria-labelledby="gridSystemModalLabel" aria-hidden="true" hidden="hidden" id="modalDocumentosAsociados">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                          <h3 class="modal-title">Documentos asociados</h3>
+                      </div>
+          
+                      <div class="modal-body">
+                          <div class="row-fluid">
+                              <div>
+                                  <table id="tablaDocumentosAsociados" class="table table-responsive">
+                                      <!-- Cabecera de la tabla -->
+                                      <thead>
+                                          <tr>
+                                              <th>Documento</th>
+                                              <th>Número</th>
+                                              <th>Fecha</th>
+                                              <th>Motivo</th>
+                                              <th>&nbsp;</th>
+                                          </tr>
+                                      </thead>
+          
+                                      <!-- Cuerpo de la tabla con los campos -->
+                                      <tbody>
+          
+                                          <!-- fila base para clonar y agregar al final -->
+                                          <tr class="fila-base">
+                                              <td style="width: 25%">
+                                                  <select class="form-control idDocumentoAsociado">
+                                                          <option value="50">50 - Gu&#237;a de Despacho</option>
+                                                          <option value="52">52 - Gu&#237;a de Despacho Electr&#243;nica </option>
+                                                          <option value="801">801 - Orden de Compra</option>
+                                                          <option value="802">802 - Nota de Pedido</option>
+                                                          <option value="803">803 - Contrato</option>
+                                                          <option value="807">807 - DUS</option>
+                                                          <option value="808">808 - B/L Conocimientos de embarque</option>
+                                                          <option value="809">809 - AWB</option>
+                                                          <option value="810">810 - MIC/DTA</option>
+                                                          <option value="811">811 - Carta de Porte</option>
+                                                          <option value="812">812 - Resoluci&#243;n de SNA-Servicios de Exportaci&#243;n</option>
+                                                          <option value="813">813 - Pasaporte</option>
+                                                          <option value="HES">HES - Orden de Compra / HES</option>
+                                                  </select>
+          
+                                              </td>
+                                              <td style="width: 12%">
+                                                  <input type="text" class="form-control FolioAsociado" placeholder="Número" maxlength="18" />
+                                              </td>
+                                              <td style="width: 20%">
+                                                  <div class="input-group date">
+                                                      <input type="text" class="form-control input-fecha fechaReferenciaAsociada" />
+                                                      <span class="input-group-btn">
+                                                      </span>
+                                                  </div>
+                                              </td>
+                                              <td style="width: 38%">
+                                                  <input type="text" class="form-control ComentarioDocumentoAsociado" placeholder="Motivo" />
+                                              </td>
+                                              <td style="width: 5%" class="eliminarLineaReferenciaAsociada">
+                                                  <button type="button" class="btn btn-danger btn-xs del deleteImpto"><i class="fa fa-minus-circle fa-1x"></i></button>
+                                              </td>
+                                          </tr>
+                                          <!-- en caso de que vuelva de la vista previa o sea edicion, cargo los valores -->
+                                          <!-- en caso de que vuelva de la vista previa o sea edicion, cargo los valores -->
+          
+                                      </tbody>
+                                  </table>
+                                  <!-- Botón para agregar filas -->
+                                  <input type="button" id="agregarDocumentoAsociado" class="btn btn-default pull-right" value="Agregar asociación" />
+                              </div>
+                              <div class="form-group">
+                                  <div class="clearfix"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                          <div class="hidden-xs">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Guardar Cambios</button>
+                          </div>
+                          <div class="hidden-sm hidden-md hidden-lg sml-footer">
+                              <button type="button" class="btn btn-xs btn-default" data-dismiss="modal">Guardar Cambios</button>
+                          </div>
+                      </div>
+          
+                  </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+          
+                                  </div>
+                              </section>
+                          </div>
+                          <div id="loadingModal" class="modal fade modal-trans" data-backdrop="static">
+                              <div class="modal-dialog modal-sm">
+                                  <div class="modal-content">
+                                      <div class="modal-body text-center">
+                                          <div class="spinner">
+                                              <div class="bounce1"></div>
+                                              <div class="bounce2"></div>
+                                              <div class="bounce3"></div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div id="modalNormal" class="modal fade">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-footer">
+                          <button id="Aceptar" type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                      </div>
+                  </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+          
+          <div id="modalNormalCenter" class="modal fade modal-center">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-footer">
+                          <button id="Aceptar" type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                      </div>
+                  </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+          
+          <div class="modal fade bs-example-modal-lg modal-cuenta" id="modalMiCuenta" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                      <div class="modal-header micuenta">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button> <h4 class="modal-title">Mi Cuenta</h4>
+                      </div>
+                      <div class="modal-body">                
+                      </div>            
+                  </div>
+              </div>
+          </div>
+          
+          <div id="modalGrande" class="modal fade">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                  </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+          
+          <div id="modalGrandeCenter" class="modal fade modal-center">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                          <div class="contenido-modal"></div>
+                      </div>
+                  </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+          
+          <div id="modalConfirmacion" class="modal fade">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                          <h4 class="modal-title">Confirmación</h4>
+                      </div>
+                      <div class="modal-body">
+                          <p id="textoModal"> </p>
+                      </div>
+                      <div class="modal-footer">
+                          <button id="Aceptar" type="button" class="btn btn-danger disable-on-click">Aceptar</button>
+                          <button id="Cancelar" type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                      </div>
+                  </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+          
+          <div id="modalGrandeCenterCabecera" class="modal fade modal-center">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="modal-header cabeza-modal">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body"></div>
+                  </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+          
+          <div id="modalGrandeCabecera" class="modal fade">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="modal-header cabeza-modal">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                          <h4 class="modal-title"></h4>
+                      </div>
+                      <div class="modal-body"></div>
+                  </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+                      </div>
+                  </div>
+              </div>
+
+
+          </div>
+        </section>
+        <!-- Page Footer-->
+        <footer
+          class="position-absolute bottom-0 bg-dash-dark-2 text-white text-center py-3 w-100 text-xs"
+          id="footer"
+        >
+          <div class="container-fluid text-center">
+            <!-- Please do not remove the backlink to us unless you support us at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+            <p class="mb-0 text-dash-gray">
+              2023 &copy; SubRed EIRL. Design by
+              <a href="/">Javier Alcayaga</a>.
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- JavaScript files-->
+ 
+
+    <script src="vendor/just-validate/js/just-validate.min.js"></script>
+
+    <script src="vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="js/charts-home.js"></script>
+    <!-- Main File-->
+    <script src="js/front.js"></script>
+    <script>
+      // ------------------------------------------------------- //
+      //   Inject SVG Sprite -
+      //   see more here
+      //   https://css-tricks.com/ajaxing-svg-sprite/
+      // ------------------------------------------------------ //
+      function injectSvgSprite(path) {
+        var ajax = new XMLHttpRequest();
+        ajax.open("GET", path, true);
+        ajax.send();
+        ajax.onload = function (e) {
+          var div = document.createElement("div");
+          div.className = "d-none";
+          div.innerHTML = ajax.responseText;
+          document.body.insertBefore(div, document.body.childNodes[0]);
+        };
+      }
+      // this is set to BootstrapTemple website as you cannot
+      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+      // while using file:// protocol
+      // pls don't forget to change to your domain :)
+      injectSvgSprite(
+        "https://bootstraptemple.com/files/icons/orion-svg-sprite.svg"
+      );
+    </script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <!-- scripts -->
+    <%- include('partials/scriptsUsers') %>
+  </body>
+</html>
